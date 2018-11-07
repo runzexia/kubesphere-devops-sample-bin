@@ -1,0 +1,9 @@
+package: github.com/yunify/terraform-provider-qingcloud
+import:
+- package: github.com/yunify/qingcloud-sdk-go
+  version: v2.0.0-alpha.33
+  subpackages:
+  - config
+  - service
+- package: github.com/hashicorp/terraform
+  version: ^0.11.8

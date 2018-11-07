@@ -1,0 +1,218 @@
+hash: b4bd0d133dfccdee89bc6586c72e5f8b649f299e01c29ff0cc17051b0cad2a11
+updated: 2018-09-20T14:49:17.859841+08:00
+imports:
+- name: github.com/apparentlymart/go-cidr
+  version: 1755c023625ec3a84979b90841a1ab067ed6c071
+  subpackages:
+  - cidr
+- name: github.com/aws/aws-sdk-go
+  version: 4ed008bd93d2726ed5a36029f62769bf37319bf7
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/awsutil
+  - aws/client
+  - aws/client/metadata
+  - aws/corehandlers
+  - aws/credentials
+  - aws/credentials/ec2rolecreds
+  - aws/credentials/endpointcreds
+  - aws/credentials/stscreds
+  - aws/csm
+  - aws/defaults
+  - aws/ec2metadata
+  - aws/endpoints
+  - aws/request
+  - aws/session
+  - aws/signer/v4
+  - internal/sdkio
+  - internal/sdkrand
+  - internal/sdkuri
+  - internal/shareddefaults
+  - private/protocol
+  - private/protocol/eventstream
+  - private/protocol/eventstream/eventstreamapi
+  - private/protocol/query
+  - private/protocol/query/queryutil
+  - private/protocol/rest
+  - private/protocol/restxml
+  - private/protocol/xml/xmlutil
+  - service/s3
+  - service/sts
+- name: github.com/bgentry/go-netrc
+  version: 9fd32a8b3d3d3f9d43c341bfe098430e07609480
+  subpackages:
+  - netrc
+- name: github.com/davecgh/go-spew
+  version: d8f796af33cc11cb798c1aaeb27a4ebc5099927d
+  subpackages:
+  - spew
+- name: github.com/go-ini/ini
+  version: fa25069db393aecc09b71267d0489b357781c860
+- name: github.com/golang/protobuf
+  version: 7716a980bceefe9a0213654823d9ea62d23b87a2
+  subpackages:
+  - proto
+  - ptypes
+  - ptypes/any
+  - ptypes/duration
+  - ptypes/timestamp
+- name: github.com/hashicorp/errwrap
+  version: 8a6fb523712970c966eefc6b39ed2c5e74880354
+- name: github.com/hashicorp/go-cleanhttp
+  version: e8ab9daed8d1ddd2d3c4efba338fe2eeae2e4f18
+- name: github.com/hashicorp/go-getter
+  version: 4bda8fa99001c61db3cad96b421d4c12a81f256d
+  subpackages:
+  - helper/url
+- name: github.com/hashicorp/go-hclog
+  version: e45cbeb79f0411b1cfedd3f226ff69d5d433c762
+- name: github.com/hashicorp/go-multierror
+  version: 886a7fbe3eb1c874d46f623bfa70af45f425b3d1
+- name: github.com/hashicorp/go-plugin
+  version: a4620f9913d19f03a6bf19b2f304daaaf83ea130
+- name: github.com/hashicorp/go-safetemp
+  version: c9a55de4fe06c920a71964b53cfe3dd293a3c743
+- name: github.com/hashicorp/go-uuid
+  version: de160f5c59f693fed329e73e291bb751fe4ea4dc
+- name: github.com/hashicorp/go-version
+  version: b5a281d3160aa11950a6182bd9a9dc2cb1e02d50
+- name: github.com/hashicorp/hcl
+  version: 65a6292f0157eff210d03ed1bf6c59b190b8b906
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/hashicorp/hil
+  version: fa9f258a92500514cc8e9c67020487709df92432
+  subpackages:
+  - ast
+  - parser
+  - scanner
+- name: github.com/hashicorp/logutils
+  version: a335183dfd075f638afcc820c90591ca3c97eba6
+- name: github.com/hashicorp/terraform
+  version: 7c25ef851bd26f720e749983597b36b17061e3ca
+  subpackages:
+  - config
+  - config/module
+  - dag
+  - flatmap
+  - helper/config
+  - helper/experiment
+  - helper/hashcode
+  - helper/hilmapstructure
+  - helper/logging
+  - helper/mutexkv
+  - helper/resource
+  - helper/schema
+  - helper/shadow
+  - plugin
+  - terraform
+- name: github.com/hashicorp/yamux
+  version: 7221087c3d281fda5f794e28c2ea4c6e4d5c4558
+- name: github.com/jmespath/go-jmespath
+  version: c2b33e8439af944379acbdd9c3a5fe0bc44bd8a5
+- name: github.com/mitchellh/copystructure
+  version: 9a1b6f44e8da0e0e374624fb0a825a231b00c537
+- name: github.com/mitchellh/go-homedir
+  version: ae18d6b8b3205b561c79e8e5f69bff09736185f4
+- name: github.com/mitchellh/go-testing-interface
+  version: 6d0b8010fcc857872e42fc6c931227569016843c
+- name: github.com/mitchellh/hashstructure
+  version: a38c50148365edc8df43c1580c48fb2b3a1e9cd7
+- name: github.com/mitchellh/mapstructure
+  version: fa473d140ef3c6adf42d6b391fe76707f1f243c8
+- name: github.com/mitchellh/reflectwalk
+  version: eecee6c969c02c8cc2ae48e1e269843ae8590796
+- name: github.com/oklog/run
+  version: 6934b124db28979da51d3470dadfa34d73d72652
+- name: github.com/satori/go.uuid
+  version: 36e9d2ebbde5e3f13ab2e25625fd453271d6522e
+- name: github.com/sirupsen/logrus
+  version: 3e01752db0189b9157070a0e1668a620f9a85da2
+- name: github.com/ulikunitz/xz
+  version: 636d36a76670e6c700f22fd5f4588679ff2896c4
+  subpackages:
+  - internal/hash
+  - internal/xlog
+  - lzma
+- name: github.com/yunify/qingcloud-sdk-go
+  version: 3692eebc9e453af850ac878a58a38bf18957e6c9
+  subpackages:
+  - client
+  - config
+  - logger
+  - request
+  - request/data
+  - request/errors
+  - service
+  - utils
+- name: golang.org/x/crypto
+  version: 0e37d006457bf46f9e6692014ba72ef82c33022c
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/net
+  version: 26e67e76b6c3f6ce91f7c52def5af501b4e0f3a2
+  subpackages:
+  - context
+  - http/httpguts
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - trace
+- name: golang.org/x/sys
+  version: 1561086e645b2809fb9f8a1e2a38160bf8d53bf4
+  subpackages:
+  - unix
+  - windows
+- name: golang.org/x/text
+  version: 905a57155faa8230500121607930ebb9dd8e139c
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: google.golang.org/genproto
+  version: c3f76f3b92d1ffa4c58a9ff842a58b8877655e0f
+  subpackages:
+  - googleapis/rpc/status
+- name: google.golang.org/grpc
+  version: 8ce7e6babb5ad539d8448d25aaba0708af2626ed
+  subpackages:
+  - balancer
+  - balancer/base
+  - balancer/roundrobin
+  - codes
+  - connectivity
+  - credentials
+  - encoding
+  - encoding/proto
+  - grpclog
+  - health
+  - health/grpc_health_v1
+  - internal
+  - internal/backoff
+  - internal/channelz
+  - internal/envconfig
+  - internal/grpcrand
+  - internal/transport
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - resolver
+  - resolver/dns
+  - resolver/passthrough
+  - stats
+  - status
+  - tap
+- name: gopkg.in/yaml.v2
+  version: 5420a8b6744d3b0345ab293f6fcba19c978f1183
+testImports: []
