@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/hashicorp/terraform/plugin"
-	"github.com/runzexia/kubesphere-devops-sample-bin/qingcloud"
+	"github.com/terraform-providers/terraform-provider-qingcloud/qingcloud"
 )
 
 func main() {
