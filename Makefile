@@ -73,6 +73,6 @@ release-tools:
 	@go get github.com/tcnksm/ghr
 
 release: release-tools
-	ghr -u runzexia -n $(RELEASE_TITLE) $(RELEASE_TAG)  ./bin/
+	ghr -u $(RELEASE_ORG) -n $(RELEASE_TITLE) $(RELEASE_TAG)  ./bin/
 
 .PHONY: all build copy test vet fmt fmtcheck errcheck dist-tools dist release-tools release test-report testacc test
