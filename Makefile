@@ -1,7 +1,7 @@
 GOFMT_FILES?=$$(find . -name '*.go' | grep -v vendor)
 VETARGS?=-all
 TEST?=$$(go list ./... |grep -v 'vendor')
-RELEASE_TAG=$$(git describe --abbrev=0 --tags)
+RELEASE_TAG=${RELEASE_TAG}
 
 
 all: build test
